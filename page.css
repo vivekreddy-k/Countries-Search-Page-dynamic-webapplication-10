@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading {
+    color: #3e4c59;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search-input {
+    height: 50px;
+}
+
+.result-countries {
+    margin-top: 18px;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ebf2fc;
+    border-radius: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.country-flag {
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px
+}
+
+.country-name {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.country-population {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+}
